@@ -1,4 +1,3 @@
-require('dotenv').config();
 import React, { useState } from 'react';
 import Map from './components/Map';
 import OddComp from './components/odd_comp';
@@ -40,7 +39,7 @@ function App() {
 
     console.log("Inside maps component", startingLocation, destination)
     const loader = new Loader({
-      apiKey: process.env.API_KEY,
+      apiKey: process.env.REACT_APP_API_KEY,
       version: "weekly",
     });
 

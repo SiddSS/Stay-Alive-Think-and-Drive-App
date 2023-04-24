@@ -13,7 +13,7 @@ odds of accident danger according to current weather conditions and statistics.
 A guide on how to install and set up the Stay Alive Think and Drive App
 
 0. Make sure you have `npm` installed on your system ([Reference here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm))
-1. Clone the repository on your local machine using `git clone`
+1. Clone the repository on your local machine using `git clone` and change your directory to the repository
 2. Make the `backend-exec` and `frontend-exec` files executable by using `chmod +x backend-exec` and `chmod +x frontend-exec` respectively 
 3. Run the `backend-exec` executable on the terminal using the command `./backend-exec`
 4. Open a new terminal, and run the `frontend-exec` executable on the terminal using the command `./frontend-exec`
