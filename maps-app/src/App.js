@@ -55,7 +55,7 @@ function App() {
 
 
       // 'https://maps.googleapis.com/maps/api/directions/json?destination=Montreal&origin=Toronto&key=AIzaSyCU-XID7IaVFN6Skviaf7g0vpUQcg9GdQ8'
-      fetch(`http://127.0.0.1:3000/dir/${startingLocation}&${destination}`, { mode: 'cors' })
+      fetch(`http://127.0.0.1:5000/dir/${startingLocation}&${destination}`, { mode: 'cors' })
         .then(response => response.json())
         .then(data => {
           console.log("inside_fetch");
