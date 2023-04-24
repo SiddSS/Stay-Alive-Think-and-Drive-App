@@ -18,7 +18,7 @@ function RouteStatistics() {
   return (
     <div>
       <h2>Total Historic Accidents on Route</h2>
-      <p style={{ fontSize: '36px' }}>{47}</p>
+      <p style={{ fontSize: '36px' }}>N/A (route not selected)</p>
     </div>
   );
 }

@@ -179,7 +179,7 @@ function App() {
         major roads and highways.  </div>
       <div style={{ display: 'flex' }}>
         <div style={mapcontainerStyle}>
-          <div id="map" style={mapStyle}>Map</div>
+          <div id="map" style={mapStyle}>Fetching Map</div>
         </div>
         <div style={rightColumnStyle}>
 
