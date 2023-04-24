@@ -12,12 +12,13 @@ odds of accident danger according to current weather conditions and statistics.
 
 A guide on how to install and set up the Stay Alive Think and Drive App
 
-0. Make sure you have `npm` installed on your system ([Reference here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm))
-1. Clone the repository on your local machine using `git clone` and change your directory to the repository
-2. Make the `backend-exec` and `frontend-exec` files executable by using `chmod +x backend-exec` and `chmod +x frontend-exec` respectively 
-3. Run the `backend-exec` executable on the terminal using the command `./backend-exec`
-4. Open a new terminal, and run the `frontend-exec` executable on the terminal using the command `./frontend-exec`
-5. Go to the address http://127.0.0.1:5000/ on your browser. You should be able to see the app interface on the above link.
+0. Make sure you have `npm` installed on your system ([Reference here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)).
+1. Install `git-lfs` to uncompress the dataset files [Reference here](https://github.com/git-lfs/git-lfs/blob/main/INSTALLING.md)
+2. Clone the repository on your local machine using `git clone` and change your directory to the repository. Uncompress the files using `git lfs pull` command
+3. Make the `backend-exec` and `frontend-exec` files executable by using `chmod +x backend-exec` and `chmod +x frontend-exec` respectively 
+4. Run the `backend-exec` executable on the terminal using the command `./backend-exec`
+5. Open a new terminal, and run the `frontend-exec` executable on the terminal using the command `./frontend-exec`
+6. Go to the address http://127.0.0.1:5000/ on your browser. You should be able to see the app interface on the above link.
 
 
 ## Execution
