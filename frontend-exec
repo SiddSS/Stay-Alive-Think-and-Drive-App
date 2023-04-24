@@ -1,0 +1,4 @@
+#!/bin/bash
+cd maps-app/
+npm install
+npm start
